@@ -1,0 +1,254 @@
+body{
+    background-color: white;
+}
+
+#big{
+    background-image: linear-gradient(to top right, rgba(242,206,132,255), rgba(230,184,173,255), rgba(220,159,211,255))  ;
+    width: 1410px;
+    height: 700px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+}
+#father{
+    display: flex;
+    flex-direction: row;
+    
+}
+#son{
+background-color: rgba(243,208,131,255);
+  width: 500px;
+  height: 600px;
+  margin-top: 60px;
+  margin-bottom: 6  0px;
+  margin-left: 55px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#dribbble{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#bigletters{
+    color: rgba(153,117,36,255);
+    margin-left: 50px;
+  }
+#house{
+    width: 450px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+#art{
+    width: 100px;
+    height: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+#son1{
+background-color: white;
+width: 800px;
+height: 600px;
+margin-top: 60px;
+margin-bottom: 60px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.already{
+    margin-left: 600px;
+    margin-top: 30px;
+    height: 20px;
+    width: 150px;
+}
+
+#recuadro{
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 450px;
+}
+
+.instagram{
+   width: 25px;
+   height: 25px;
+   margin-right: 50px;   
+}
+
+.linkedin{
+    width: 25px;
+   height: 25px;
+   margin-right: 50px;}
+
+.twitter{
+    width: 25px;
+   height: 25px;
+   margin-right: 50px;
+}
+.facebook{
+    width: 25px;
+   height: 25px;
+   margin-right: 50px;
+}
+.youtube{
+    width: 25px;
+   height: 25px;
+   margin-right: 50px;
+
+}
+#form{
+    margin-top: 30px;
+}
+
+.label{
+    margin-bottom: 20px
+} 
+
+#names{
+    display: flex;
+    flex-direction: row;
+}
+#name{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 165px;
+    margin-right: 20px;
+    height: 30px;
+    background-color: rgba(244,246,248,255);
+    border-radius: 8px;
+    border-style:hidden;
+}
+
+#email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.email{
+    width: 350px;
+    height: 30px;
+    background-color: rgba(244,246,248,255);
+    border-radius: 8px;
+    border-style:hidden;
+    
+}
+
+
+#password{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.password{
+    width: 350px;
+    height: 30px;
+    background-color: rgba(244,246,248,255);
+    border-radius: 8px;
+    border-style:hidden;
+    padding-left: 10px;
+}
+
+
+#register{
+    background-color: rgba(234,76,136,255);
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    border-style:unset;
+    border-color: none;
+    margin-top: 20px;
+   
+    
+}
+.register{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#this{
+    color: rgba(190,190,190,255);
+    font-size: 11px;
+    margin-top: 50px;
+    width: 300px;
+
+}
+input:focus{
+    background-color: rgba(243,208,131,20%);
+
+}
+input:required{
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+@media screen and (max-width: 576px){
+    #father{ 
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    #big{
+        background-image: linear-gradient(to top right, rgba(242,206,132,255), rgba(230,184,173,255), rgba(220,159,211,255))  ;
+        width: 450px;
+        height: 1240px;
+        margin-left: 0;
+        margin-top: 0;
+        border-radius: 10px;
+        
+    }
+    #son{
+        background-color: rgba(243,208,131,255);
+          width:400px;
+          height: 600px;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          margin-left: 25px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius:0px ;
+
+          
+        }
+        #house{
+            width: 300px;
+            height: 250px;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        #son1{
+            background-color: white;
+            width: 400px;
+            height: 600px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 0px; ;
+            margin-left: 25px;
+           
+            }
+            #recuadro{
+                margin-left: 20px;
+                margin-top: 5   0px;
+                width: 400px;
+            }
+            #register{
+                background-color: rgba(234,76,136,255);
+                width: 150px;
+                height: 30px;
+                border-radius: 8px;
+                border-style:unset;
+                border-color: none;
+                margin-top: 50px;
+               
+                
+            }
+        } 
